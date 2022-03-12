@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 
-public class sample {
+public class practice_1 {
     private WebDriver driver = null;
 
     @Test
