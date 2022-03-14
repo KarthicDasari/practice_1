@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 
 public class Practice_1 {
@@ -119,6 +120,21 @@ public class Practice_1 {
          Practice_1 practice_1 = new Practice_1() ;
          practice_1.strPalindrome("saanvi");
          practice_1.numRev();
+
+    }
+    @Test
+    public void p_hashmap(){
+        String text = "This is sample code to test";
+        String[] s = text.split(" ");
+
+        HashMap<String, Integer> hm = new HashMap<String, Integer>();
+        for (int i=0; i<=s.length-1;i++)
+        {
+            hm.put(s[i],i);
+        }
+        System.out.print(hm);
+
+//        LinkedList<String> ll = new LinkedList();
 
     }
 
